@@ -1,0 +1,11 @@
+<nav th:fragment="navbar" class="navbar navbar-dark bg-dark fixed-top">
+  <div class="container-fluid d-flex justify-content-between">
+    <a th:href="@{/home}" class="navbar-brand">
+      <i class="bi bi-chat-dots"></i> ChatApp2
+    </a>
+
+    <a href="#" class="btn btn-outline-light" onclick="confirmLogout()">
+      <i class="bi bi-box-arrow-right"></i> Logout
+    </a>
+  </div>
+</nav>
